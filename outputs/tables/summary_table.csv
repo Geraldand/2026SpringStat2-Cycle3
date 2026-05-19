@@ -1,0 +1,12 @@
+Metric (指標),Value (數值)
+Group 1 (Sad) Sample Size (n1),3854.0
+Group 1 (Sad) Smokers (x1),1064.0
+Group 1 (Sad) Proportion (p1_hat),0.2761
+Group 2 (Non-Sad) Sample Size (n2),9320.0
+Group 2 (Non-Sad) Smokers (x2),1508.0
+Group 2 (Non-Sad) Proportion (p2_hat),0.1618
+Difference in Proportions (p1_hat - p2_hat),0.1143
+Z-test Statistic,15.0536
+P-value,3.2674477555382817e-51
+95% CI Lower Bound,0.0983
+95% CI Upper Bound,0.1302
