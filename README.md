@@ -24,8 +24,8 @@ Based on our Two-Proportion Z-test on $N = 13,174$ students from the YRBS 2007 d
 We **strongly reject the null hypothesis ($H_0$)**. Students who felt sad or hopeless have a significantly higher smoking rate (**27.61%**) than those who did not (**16.18%**), with a substantial sample difference of **11.43%**. We are 95% confident that the true population difference lies between **9.83% and 13.02%**. 
 
 *(Note: As this is an observational study, these results confirm a robust statistical association between adolescent psychological distress and tobacco use, but do not imply cross-sectional causality.)*
-本研究針對 2007 年 YRBS 數據（有效樣本共 13,174 筆）進行雙樣本比例 Z 檢定，得到以下最終結論：
 
+本研究針對 2007 年 YRBS 數據（有效樣本共 13,174 筆）進行雙樣本比例 Z 檢定，得到以下最終結論：
 1. **統計結果極度顯著**：檢定統計量 $Z = 15.0536$，$P$ 值趨近於 0（$3.27 \times 10^{-51} \ll 0.05$），我們**強烈拒絕虛無假設（Reject $H_0$）**。證實在美國青少年中，過去一年曾感到悲傷或絕望者的目前吸菸比例，**顯著高於**未感到悲傷或絕望者。
 2. **實質差距巨大**：感到悲傷絕望青少年的吸菸率（27.61%）比對照組（16.18%）高出了 **11.43%**。我們有 95% 的信心母體真實比例差異落在 **9.83% 至 13.02%** 之間。由馬賽克圖與雙常態分佈圖可見，兩群體的行為模式存在實質性的巨大鴻溝（Practical Significance）。
 
