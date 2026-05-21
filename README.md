@@ -21,7 +21,7 @@
 ## 6. Short Final Conclusion (簡短大結論)
 Based on our Two-Proportion Z-test on $N = 13,174$ students from the YRBS 2007 dataset, we found a highly statistically significant difference in cigarette use between the two groups ($Z = 15.0536$, $P = 3.27 \times 10^{-51} < 0.05$). 
 
-We **strongly reject the null hypothesis ($H_0$)**. Students who felt sad or hopeless have a significantly higher smoking rate (**27.61%**) than those who did not (**16.18%**), with a substantial sample difference of **11.43%**. We are 95% confident that the true population difference lies between **9.83% and 13.02%**. 
+We **strongly reject the null hypothesis ($H_0$)**. Students who felt sad or hopeless have a significantly higher smoking rate (**27.61%**) than those who did not (**16.18%**). **Visual evidence from our plots—specifically the completely non-overlapping 95% confidence intervals and the distinct separation of sampling distributions—further confirms that this 11.43% gap is robust and not due to chance.** We are 95% confident that the true population difference lies between **9.83% and 13.02%**.
 
 *(Note: As this is an observational study, these results confirm a robust statistical association between adolescent psychological distress and tobacco use, but do not imply cross-sectional causality.)*
 
