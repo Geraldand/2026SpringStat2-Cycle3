@@ -18,3 +18,10 @@
 
 ## 3. Method Choice
 We chose the **Two-proportion z-test** because both our group variable and response variable are binary categorical variables. We are comparing the proportion of successes (current cigarette use) between two independent groups.
+
+### Assumption Check Evaluation
+To use the Two-Proportion Z-test, the Success/Failure Condition must be met for both groups. This requires that the number of successes and failures in each group is at least 10:
+- Group 0 (No Sad/Hopeless Feeling): Successes (Smoke) = 1,508, Failures (No Smoke) = 7,812
+- Group 1 (Sad/Hopeless Feeling): Successes (Smoke) = 1,064, Failures (No Smoke) = 2,790
+
+Since all four cell counts from our contingency table are strictly greater than 10 ($n\hat{p} \ge 10$ and $n(1-\hat{p}) \ge 10$), the Success/Failure Condition is fully satisfied. The sampling distribution of the difference between the two proportions can be safely approximated by a normal distribution, making the Two-Proportion Z-test valid for this analysis.
