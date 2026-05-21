@@ -1,7 +1,7 @@
 # Project Cycle 3: Two-Sample Inference
 
-## Group Number (組別):*10*
-## Member Names (組員姓名):
+## Group Number (組別):10
+## Member Names (組員姓名)
 * **112370234 張智源** (Geraldand)
 * **113370201 簡愷毅** (kaibao8171)
 * **113370218 彭鈺芳** (Vickyfang77)
