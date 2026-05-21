@@ -19,9 +19,17 @@
 ## 3. Method Choice
 We chose the **Two-proportion z-test** because both our group variable and response variable are binary categorical variables. We are comparing the proportion of successes (current cigarette use) between two independent groups.
 
-### Assumption Check Evaluation
-To use the Two-Proportion Z-test, the Success/Failure Condition must be met for both groups. This requires that the number of successes and failures in each group is at least 10:
-- Group 0 (No Sad/Hopeless Feeling): Successes (Smoke) = 1,508, Failures (No Smoke) = 7,812
-- Group 1 (Sad/Hopeless Feeling): Successes (Smoke) = 1,064, Failures (No Smoke) = 2,790
+### Assumption Evaluation & Interpretation
 
-Since all four cell counts from our contingency table are strictly greater than 10 ($n\hat{p} \ge 10$ and $n(1-\hat{p}) \ge 10$), the Success/Failure Condition is fully satisfied. The sampling distribution of the difference between the two proportions can be safely approximated by a normal distribution, making the Two-Proportion Z-test valid for this analysis.
+To safely conduct the Two-Proportion Z-test, the **Success/Failure Condition** must be met. This statistical rule requires that both independent groups have at least 10 observed successes and 10 observed failures ($n\hat{p} \ge 10$ and $n(1-\hat{p}) \ge 10$).
+
+Based on our contingency table output above:
+* **Group 0 (Students who did NOT feel sad/hopeless):**
+  * Failures (Non-smokers): **7,812** ($\ge 10$) $\rightarrow$ *Passed!*
+  * Successes (Current smokers): **1,508** ($\ge 10$) $\rightarrow$ *Passed!*
+* **Group 1 (Students who FELT sad/hopeless):**
+  * Failures (Non-smokers): **2,790** ($\ge 10$) $\rightarrow$ *Passed!*
+  * Successes (Current smokers): **1,064** ($\ge 10$) $\rightarrow$ *Passed!*
+
+**Conclusion for Assumption Check:**
+Since all four core cell counts are significantly greater than the minimum threshold of 10, the Success/Failure condition is fully and robustly satisfied. Therefore, the sampling distribution of the difference between the two proportions ($\hat{p}_1 - \hat{p}_2$) can be safely approximated by a normal distribution, confirming that the **Two-Proportion Z-test is a valid and appropriate statistical method** for our dataset.
