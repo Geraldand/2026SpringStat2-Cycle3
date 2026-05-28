@@ -1,7 +1,7 @@
 # Project Cycle 3: Two-Sample Inference / 雙樣本推論
 
 ## 1. Group Number / 小組編號
-* **Group 10 / 第 10 組**
+* **Group 10
 
 ## 2. Member Names / 組員姓名
 * **112370234 張智源** (Geraldand)
