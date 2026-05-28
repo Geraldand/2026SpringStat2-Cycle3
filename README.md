@@ -8,8 +8,6 @@
 * **113370201 簡愷毅** (kaibao8171)
 * **113370218 彭鈺芳** (Vickyfang77)
 
-> *(Note: The instruction states that groups should consist of 2 students, so the compliance of a 3-member group is slightly uncertain. Please keep this if specially approved by the professor. / 註：不太確定標註——由於說明文件規定為兩人一組，此處對於三人組隊名單之合規性有些許不確定，若已獲教授特別核准，請照常保留。)*
-
 ## 3. Selected Research Question / 選定的研究問題
 * Is the proportion of current cigarette use different between students who felt sad or hopeless and those who did not? (Question 8)
 * 過去一年曾感到悲傷或絕望之青少年與未感到者，其目前吸菸比例是否有所不同？（題目 8）
@@ -32,7 +30,7 @@ Based on our Two-Proportion Z-test on $N = 13,174$ students from the YRBS 2007 d
 
 Furthermore, our exploratory analysis incorporating "Binge Drinking" reveals a clear risk escalator effect. While the normal baseline group has a low smoking rate, the comorbidity group (students experiencing both sadness and binge drinking) exhibits a smoking rate that skyrockets to **54.8%**. Additionally, an anatomical breakdown of the student smoking population reveals that pure smokers account for only 20.1%, meaning that **79.9%** of adolescent smokers carry invisible burdens of psychological distress or alcohol abuse. These behaviors serve as a critical "beacon" reflecting underlying psychological trauma rather than mere disciplinary issues.
 
-*⚠️ Statistical Disclaimer: As this is an observational study, these results confirm a robust statistical association between adolescent psychological distress, substance abuse, and tobacco use, but do not imply causality.*
+*Statistical Disclaimer: As this is an observational study, these results confirm a robust statistical association between adolescent psychological distress, substance abuse, and tobacco use, but do not imply causality.*
 
 ---
 
@@ -41,4 +39,4 @@ Furthermore, our exploratory analysis incorporating "Binge Drinking" reveals a c
 1. **統計與實質顯著性：** 檢定統計量 $Z = 15.0536$，$P$ 值趨近於 0（$3.27 \times 10^{-51} \ll 0.05$），我們強烈拒絕虛無假設（Reject $H_0$）。過去一年曾感到悲傷或絕望之青少年的目前吸菸比例（**27.61%**）顯著高於未感到悲傷或絕望者（**16.18%**）。我們有 95% 的信心母體真實比例差異落在 **9.83% 至 13.02%** 之間（淨差異為 11.43%）。由抽樣分配模型圖可見，兩群體的估計分佈曲線完全分離且零重疊，證實此差距存在實質性的巨大鴻溝。
 2. **多重風險疊加與隱形負擔（結合延伸變數之深度探索）：** 透過納入「狂飲（Binge Drinking）」進行交叉探索，發現學生的吸菸風險呈現明顯的「風險階梯式上升」。相較於雙無因子的基線群體，同時面臨悲傷情緒與狂飲行為的「高度共病群體」，其吸菸率急遽飆升至 **54.8%**。進一步解剖吸菸人口結構發現，純粹吸菸者僅佔 20.1%，意即高達 **79.9%** 的吸菸青少年皆背負著悲傷情緒或酒精濫用的隱形重擔。此類偏差行為在實質上扮演了心理健康受創的「雷達信標」，而非單純的紀律問題。
 
-*⚠️ 核心統計把關宣告：由於本研究採用的是觀察性研究資料（Observational Data），此處結果僅能證實青少年的「心理健康狀況（悲傷絕望）」、「物質濫用（飲酒狂飲）」與「吸菸行為」之間存在強烈的統計相關性（Association），絕不宣稱或推論其具備因果關係（Causality）。*
+*核心統計把關宣告：由於本研究採用的是觀察性研究資料（Observational Data），此處結果僅能證實青少年的「心理健康狀況（悲傷絕望）」、「物質濫用（飲酒狂飲）」與「吸菸行為」之間存在強烈的統計相關性（Association），絕不宣稱或推論其具備因果關係（Causality）。*
