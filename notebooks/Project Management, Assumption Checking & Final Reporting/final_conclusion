@@ -1,0 +1,60 @@
+======================================================================
+PROJECT CYCLE 3: INTEGRATION SUMMARY (GROUP 10)English.ver
+======================================================================
+
+[TEAM CONTRIBUTIONS & SYNERGY]
+- Geraldand (Zhang Zhi-Yuan): Led project management, hypothesis 
+  formulation, and rigorous verification of statistical assumptions.
+- kaibao8171 (Jian Kai-Yi): Conducted data cleaning, recoding logic, 
+  Two-Proportion Z-test execution, and summary table compilation.
+- Vickyfang77 (Peng Yu-Fang): Developed data visualizations, including 
+  confidence interval charts and theoretical sampling distributions.
+
+[KEY STATISTICAL FINDINGS]
+- Dataset: YRBS 2007 (N = 13,174)
+- Sad/Hopeless Group Smoking Rate: 27.61%
+- Comparison Group Smoking Rate: 16.18%
+- Net Difference: +11.43%
+- Statistical Inference: Z = 15.0536, P = 3.27e-51 (Reject H0)
+- 95% Confidence Interval: [9.83%, 13.02%]
+
+[RISK ESCALATOR & EXTENDED ANALYSIS]
+Exploratory analysis reveals a significant "Risk Escalator Effect":
+1. Comorbidity Impact: Students facing both sadness and binge drinking 
+   exhibit a smoking prevalence of 54.8%.
+2. Psychological Beacon: 79.9% of adolescent smokers demonstrate 
+   underlying psychological distress or substance abuse. Smoking is a 
+   critical "radar beacon" for invisible trauma rather than just 
+   disciplinary misconduct.
+
+[DISCLAIMER]
+This study is based on cross-sectional observational data. Results 
+confirm a robust statistical association but do not imply causality.
+============================================================================================================================================
+PROJECT CYCLE 3: INTEGRATION SUMMARY (GROUP 10)Chinese.ver
+======================================================================
+
+[成員貢獻與分工]
+- 張智源 (Geraldand) : 統籌研究架構、建立假設、嚴格驗證統計條件
+- 簡愷毅 (kaibao8171) : 執行資料清洗與編碼、進行 Z-Test 與摘要表運算
+- 彭鈺芳 (Vickyfang77) : 設計視覺化呈現、繪製比例長條圖與分佈曲線圖
+
+[核心統計數據]
+- 研究樣本 : YRBS 2007 (N = 13,174)
+- 悲傷組吸菸率 : 27.61%
+- 對照組吸菸率 : 16.18%
+- 淨差距       : +11.43%
+- 統計指標     : Z = 15.0536, P = 3.27e-51 (Reject H0)
+- 信賴區間     : [9.83%, 13.02%]
+
+[延伸洞察：風險階梯效應]
+根據探索性分析(EDA)，吸菸行為呈現顯著的共病風險階梯：
+1. 當悲傷情緒與狂飲行為(Binge Drinking)同時出現時，
+   吸菸率急遽飆升至 54.8%。
+2. 數據解剖顯示，79.9% 的吸菸青少年皆伴隨心理困擾或酒精濫用。
+3. 吸菸行為已非單純紀律問題，而是心理創傷的「雷達信標」。
+
+[聲明]
+本研究為觀察性研究(Observational Study)，所得結論僅證實
+高度統計相關性(Association)，並不代表因果關係(Causality)。
+======================================================================
