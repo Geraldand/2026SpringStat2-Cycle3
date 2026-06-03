@@ -1,37 +1,40 @@
-# Variable Coding, Method Choice, and Assumption Check
+# Data Dictionary (Codebook) for YRBS 2007 Analysis
+**Project:** The Compounding Effect of Sadness and Alcohol on Youth Smoking (Group 10)
 
-## 1. Group Definition (Explanatory Variable)
-* **Original Variable:** `q23` (During the past 12 months, did you ever feel so sad or hopeless...)
-* **Recoded Variable:** `SadOrHopeless_Recoded`
-* **Logic:** * Code 1 (Yes) -> Recoded as 1 (Success / Exposed group)
-  * Code 2 (No) -> Recoded as 0 (Failure / Comparison group)
-  * Missing or invalid responses were dropped.
-
-## 2. Response Variable Definition
-* **Original Variable:** `q28` (During the past 30 days, on how many days did you smoke cigarettes?)
-* **Recoded Variable:** `CurrentCigaretteUse_Recoded`
-* **Logic:**
-  * Codes 2-7 (Smoked on 1 or more days) -> Recoded as 1 (Success / Yes)
-  * Code 1 (0 days) -> Recoded as 0 (Failure / No)
-  * Missing or invalid responses were dropped.
-
-## 3. Method Choice
-We chose the **Two-proportion z-test** because both our group variable and response variable are binary categorical variables. We are comparing the proportion of successes (current cigarette use) between two independent groups.
+This document outlines the definitions, original survey questions, and data recoding logic for all variables used in our statistical inference and Exploratory Data Analysis (EDA). Invalid responses and missing values (`NaN`) were entirely excluded during the data cleaning process.
 
 ---
 
-## 4. Statistical Assumption Verification
+## Part 1: Core Variables for Two-Sample Inference
 
-To safely conduct the Two-Proportion Z-test, the **Success/Failure Condition** must be met. This statistical rule requires that both independent groups have at least 10 observed successes and 10 observed failures ($n\hat{p} \ge 10$ and $n(1-\hat{p}) \ge 10$).
+### 1. Psychological State (Grouping / Explanatory Variable)
+* **Recoded Variable Name:** `SadOrHopeless_Recoded`
+* **Original YRBS Question:** "During the past 12 months, did you ever feel so sad or hopeless almost every day for two weeks or more in a row that you stopped doing some usual activities?"
+* **Coding Logic:**
+  * `1` (Yes): Felt sad or hopeless.
+  * `0` (No): Did not feel sad or hopeless.
 
-### 📊 Observed Sample Counts (Contingency Table Results)
+### 2. Smoking Status (Response Variable)
+* **Recoded Variable Name:** `CurrentCigaretteUse_Recoded`
+* **Original YRBS Question:** "During the past 30 days, on how many days did you smoke cigarettes?"
+* **Coding Logic:**
+  * `1` (Current Smoker): Smoked for at least 1 day in the past 30 days.
+  * `0` (Non-Smoker): Smoked 0 days in the past 30 days.
 
-| Group Variable (`SadOrHopeless_Recoded`) | Failures (Non-smokers: 0) | Successes (Current smokers: 1) | Verification Result |
-| :--- | :---: | :---: | :---: |
-| **Group 0 (Did NOT feel sad/hopeless)** | **7,812** | **1,508** | ✅ **Passed ($\ge 10$)** |
-| **Group 1 (FELT sad/hopeless)** | **2,790** | **1,064** | ✅ **Passed ($\ge 10$)** |
+---
 
-> ### 📝 Conclusion for Assumption Check
-> Since all four core cell counts from our dataset are significantly greater than the minimum threshold of 10, the Success/Failure condition is fully and robustly satisfied. 
-> 
-> Therefore, the sampling distribution of the difference between the two proportions ($\hat{p}_1 - \hat{p}_2$) can be safely approximated by a normal distribution, confirming that the **Two-Proportion Z-test is a valid and mathematically appropriate statistical method** for our dataset.
+## Part 2: Additional Variables for Exploratory Data Analysis (EDA)
+
+### 3. Current Alcohol Use
+* **Recoded Variable Name:** `CurrentAlcoholUse_Recoded`
+* **Original YRBS Question:** "During the past 30 days, on how many days did you have at least one drink of alcohol?"
+* **Coding Logic:**
+  * `1` (Yes): Had at least one drink of alcohol on 1 or more days in the past 30 days.
+  * `0` (No): 0 days of alcohol consumption in the past 30 days.
+
+### 4. Current Binge Drinking
+* **Recoded Variable Name:** `CurrentBingeDrinking5OrMore_Recoded`
+* **Original YRBS Question:** "During the past 30 days, on how many days did you have 5 or more drinks of alcohol in a row, that is, within a couple of hours?"
+* **Coding Logic:**
+  * `1` (Yes): Engaged in binge drinking on 1 or more days in the past 30 days.
+  * `0` (No): 0 days of binge drinking in the past 30 days.
