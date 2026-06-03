@@ -1,5 +1,37 @@
 ======================================================================
-PROJECT CYCLE 3: INTEGRATION SUMMARY (GROUP 10)
+PROJECT CYCLE 3: INTEGRATION SUMMARY (GROUP 10)English.ver
+======================================================================
+
+[TEAM CONTRIBUTIONS & SYNERGY]
+- Geraldand (Zhang Zhi-Yuan): Led project management, hypothesis 
+  formulation, and rigorous verification of statistical assumptions.
+- kaibao8171 (Jian Kai-Yi): Conducted data cleaning, recoding logic, 
+  Two-Proportion Z-test execution, and summary table compilation.
+- Vickyfang77 (Peng Yu-Fang): Developed data visualizations, including 
+  confidence interval charts and theoretical sampling distributions.
+
+[KEY STATISTICAL FINDINGS]
+- Dataset: YRBS 2007 (N = 13,174)
+- Sad/Hopeless Group Smoking Rate: 27.61%
+- Comparison Group Smoking Rate: 16.18%
+- Net Difference: +11.43%
+- Statistical Inference: Z = 15.0536, P = 3.27e-51 (Reject H0)
+- 95% Confidence Interval: [9.83%, 13.02%]
+
+[RISK ESCALATOR & EXTENDED ANALYSIS]
+Exploratory analysis reveals a significant "Risk Escalator Effect":
+1. Comorbidity Impact: Students facing both sadness and binge drinking 
+   exhibit a smoking prevalence of 54.8%.
+2. Psychological Beacon: 79.9% of adolescent smokers demonstrate 
+   underlying psychological distress or substance abuse. Smoking is a 
+   critical "radar beacon" for invisible trauma rather than just 
+   disciplinary misconduct.
+
+[DISCLAIMER]
+This study is based on cross-sectional observational data. Results 
+confirm a robust statistical association but do not imply causality.
+============================================================================================================================================
+PROJECT CYCLE 3: INTEGRATION SUMMARY (GROUP 10)Chinese.ver
 ======================================================================
 
 [成員貢獻與分工]
